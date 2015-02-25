@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="randomDrawing.cbp">
+			<Depends filename="../../../libs/openFrameworksCompiled/project/win_cb/openFrameworksLib.cbp" />
+		</Project>
+		<Project filename="../../../libs/openFrameworksCompiled/project/win_cb/openFrameworksLib.cbp" />
+		<Project filename="../02_landscape/02_landscape.cbp" />
+		<Project filename="../../OF_ALgo Class/02__noisewalker/02__noisewalker.cbp" />
+		<Project filename="../../OF_ALgo Class/02_Xeno_following/Xeno_following.cbp" />
+		<Project filename="../02_population/02_population.cbp" />
+		<Project filename="../../OF_ALgo Class/02_gaussian/02_gaussian.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
