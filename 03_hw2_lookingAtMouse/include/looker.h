@@ -11,14 +11,20 @@ class looker
         void update(float _x, float _y);
         void draw();
 
-        ofVec2f pos;
-        float rot;
         int r;
         int b;
         int g;
 
 
 
+
     private:
+
+        ofVec2f pos;
+        float rot;
+
+
+
+
 };
 
