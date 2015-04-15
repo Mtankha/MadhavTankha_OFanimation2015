@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="midterm_painter.cbp">
+			<Depends filename="../../../libs/openFrameworksCompiled/project/win_cb/openFrameworksLib.cbp" />
+		</Project>
+		<Project filename="../../../libs/openFrameworksCompiled/project/win_cb/openFrameworksLib.cbp" />
+		<Project filename="../05_hw1_fireworks/05_hw1_fireworks.cbp" />
+		<Project filename="../../OF_ALgo Class/week1_simpleClass/week1_simpleClass.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

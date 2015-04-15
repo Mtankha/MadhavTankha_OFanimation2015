@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="09_flowfield.cbp">
+			<Depends filename="../../../libs/openFrameworksCompiled/project/win_cb/openFrameworksLib.cbp" />
+		</Project>
+		<Project filename="../../../libs/openFrameworksCompiled/project/win_cb/openFrameworksLib.cbp" />
+		<Project filename="../03_hw1_beautifulHarmony/03_beautifulHarmony.cbp" />
+		<Project filename="../../OFAnimation_week8-master/01_flowFieldImage/01_flowFieldImage.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
