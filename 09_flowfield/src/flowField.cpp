@@ -99,24 +99,24 @@ void flowField::draw(){
 
 ofVec2f flowField::getForceAt(float x, float y) {
 
-    //create a vector force to apply to the particle and set it to zero.
+    //vector force applied to particle
     ofVec2f frc;
     frc.set(0, 0);
 
 
-    //make sure the particle is within the flow. If not, just return force as zero. When you return from a function, nothing else
+    //confirm if particle is within flow
     if (x < 0 || x > screenWidth || y < 0 || y > screenHeight) {
             return frc;
     }
 
-    //convert the X and Y position from pixels to the size in number of flows
+    //find out flow position from pixels
     int xIndex = ceil (ofMap (x, 0, ofGetWidth(), 0, fieldWidth));
     float yIndex = ceil (ofMap (y, 0, ofGetHeight(), 0, fieldHeight));
 
-    //finding the position of the flow in the vector container
+    //finding index number
     int index = (yIndex * fieldWidth) + xIndex;
 
-    //set the force from the flow. Scale it down otherwise it will be too strong
+    //set and scale force
     frc.set(field[index].x * 0.01, field[index].y * 0.01);
 
     return frc;
