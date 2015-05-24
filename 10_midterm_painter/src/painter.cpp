@@ -59,8 +59,7 @@ void painter::update(){
     };
 
 
-    //int randOffX = ofRandom(-1,1);
-    //int randOffY = ofRandom(-1,1);
+
     offset.set(ofRandom(-10,10) *offsetmult,ofRandom(-10,10)*offsetmult);
 
 
